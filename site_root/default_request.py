@@ -6,6 +6,9 @@ def default(request):
     return httpDj.HttpResponse(htmlHelper.html_tag_center()+ #отцентруем все
                                 "Начальная страница"
                                "<br>"
+                               "Приветствуем Вас на главной странице сайта, написанного по итогам вебинара по "
+                                "python/django"
+                                "<br>"
                                "<a href='/contacts'>Контакты</a>"
                                "<br>"
                                "<a href='/about'>О сайте</a>"+
